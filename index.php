@@ -3,10 +3,17 @@
 /*
 	$currentDate = time ();
 	$startOfCareerDate = mktime( 0, 0, 0, 1, 1, 2001 );
-	
+
 	$differenceOfDates = $currentDate - $startOfCareerDate;
 	$differenceExpressedAsYears = floor ( $differenceOfDates / ( 60 * 60 * 24 * 365 ) );
  */
+
+$urlPath =
+	( !empty( $_SERVER[ "HTTPS" ] )
+		&& $_SERVER[ "HTTPS" ] == "on"
+			? "https://"
+			: "http://" )
+	. $_SERVER[ "SERVER_NAME" ];
 
 ?>
 <!DOCTYPE html>
@@ -18,10 +25,17 @@
 		<meta content="Matthew Choinski" name="author">
 		<meta content="Matthew Choinski, Matt Choinski, Freelance, Freelance Web Developer, Web Developer, Open Source, LAMP, Linux, Apache, MySQL, PHP, Python, jQuery" name="keywords">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="/include/style/screen.css" media="screen" rel="stylesheet">
+		<link href="<?php echo( $urlPath ); ?>/include/style/screen.css" media="screen" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<link href="<?php echo( $urlPath ); ?>/include/style/screen_ie.css" media="screen" rel="stylesheet">
+		<![endif]-->
+		<link rel="stylesheet" href="<?php echo( $urlPath ); ?>/include/style/font-awesome.min.css">
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="<?php echo( $urlPath ); ?>/include/style/font-awesome-ie7.min.css">
+		<![endif]-->
         <title>Matthew Choinski - Web Developer in Baltimore, Maryland Specializing in Open Source and Microsoft Technologies.</title>
 		<!--[if lt IE 9]>
-		<script src="http://mattchoinski.com/script/shim_html5.js"></script>
+		<script src="<?php echo( $urlPath ); ?>/script/shim_html5.js"></script>
 		<![endif]-->
     </head>
 <?php flush(); ?>
