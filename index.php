@@ -60,10 +60,12 @@ $urlPath =
 				<p>Founded MessagingReminder.com, LLC, which provided a service that synchronized your Microsoft Outlook Calendar with your mobile phone via text messaging. The service supported several hundred users.</p>
 				<p>Call me at <em>410-541-6736</em> or <a href="http://www.linkedin.com/in/matthewchoinski">view my experiences</a>.</p>
 			</section>
+<!--
 			<section>
 				<h2>Sample Title</h2>
 				<p>Sample paragraph text...</p>
 			</section>
+ -->
 		</div>
 		<footer>
 			<p>&copy; 2013 Matthew Choinski</p>
