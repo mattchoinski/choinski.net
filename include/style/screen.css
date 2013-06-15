@@ -97,7 +97,8 @@ FOOTER {
 	color: #808080;
     font-size: 0.75em;
     margin-top: 20px;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 0 10px 0;
+	width: 100%;
 }
 
 FOOTER,
@@ -238,11 +239,24 @@ P {
 @media (min-width: 321px ) and ( max-width: 767px ) {
 
 	BODY {
+		font-size: 0.60em;
 		width: 100%;
+	}
+	
+	FOOTER {
+		font-size: 0.95em;
+	}
+	
+	H1 {
+		font-size: 2.75em;
 	}
 	
 	HEADER {
 		padding: 0 2.083333333% 0 2.083333333%;
+	}
+	
+	HEADER H1 {
+		font-size: 2.00em;
 	}
 
 	.columns SECTION {
@@ -261,11 +275,6 @@ P {
 
 	BODY {
 		width: 320px;
-	}
-	
-	H1 {
-
-		font-size: 1.10em;
 	}
 	
 	HEADER {

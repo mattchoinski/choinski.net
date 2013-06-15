@@ -67,8 +67,12 @@ $urlPath =
 			</section>
  -->
 		</div>
-		<footer>
-			<p>&copy; 2013 Matthew Choinski</p>
+		<footer class="columns">
+			<section>
+				<p>&copy; 2013 Matthew Choinski</p>
+			</section>
 		</footer>
-    </body>
+		<script src="<?php echo( $urlPath ); ?>/include/script/jquery.min.js"></script>
+		<script src="<?php echo( $urlPath ); ?>/include/script/script.js" type="text/javascript"></script>
+	</body>
 </html>
