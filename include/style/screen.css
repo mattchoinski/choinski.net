@@ -189,6 +189,10 @@ P {
 	float: left;
 }
 
+A < I {
+	text-decoration: none;
+}
+
 @media ( min-width: 1024px ) {
 
 	BODY {

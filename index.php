@@ -61,9 +61,13 @@ $urlPath =
 				<p>Call me at <em>410-541-6736</em> or <a href="http://www.linkedin.com/in/matthewchoinski">view my experiences</a>.</p>
 			</section>
 		</div>
-		<footer class="columns">
+		<footer class="columns two">
 			<section>
 				<p>&copy; 2013 Matthew Choinski</p>
+				<p><a href="https://github.com/mattchoinski"><i class="icon-github-sign icon-2x"></i></a> <a href="http://www.linkedin.com/in/matthewchoinski"><i class="icon-linkedin-sign icon-2x"></i></a> <a href="https://twitter.com/mattchoinski"><i class="icon-twitter-sign icon-2x"></i></a></p>
+			</section>
+			<section>
+				<p>&nbsp;</p>
 			</section>
 		</footer>
 		<script src="<?php echo( $urlPath ); ?>/include/script/jquery.min.js"></script>
