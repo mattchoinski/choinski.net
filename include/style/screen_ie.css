@@ -2,8 +2,24 @@ BODY {
 	width: 1024px;
 }
 
+TH.large {
+	width: 18.292682926%;
+}
+
+TH.medium {
+	width: 8.1300813%;
+}
+
+TH.small {
+	width: 4.06504065%;
+}
+
+.columns H1,
 .columns SECTION {
 	margin: 0 1.953125% 0 1.953125%;
+}
+
+.columns SECTION {
 	width: 96.09375%;
 }
 
