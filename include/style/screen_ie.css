@@ -23,10 +23,11 @@ TH.small {
 	width: 96.09375%;
 }
 
-.columns.three SECTION {
+.columns .three SECTION {
 	width: 29.427083333%;
 }
 
-.columns.two SECTION {
+.columns .two SECTION {
+	background-color: #ccc;
 	width: 46.09375%;
 }
