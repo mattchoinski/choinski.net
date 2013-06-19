@@ -35,7 +35,7 @@ $urlPath =
 		<![endif]-->
         <title>Matthew Choinski - Web Developer in Baltimore, Maryland Specializing in Open Source and Microsoft Technologies.</title>
 		<!--[if lt IE 9]>
-		<script src="<?php echo( $urlPath ); ?>/script/shim_html5.js"></script>
+		<script src="<?php echo( $urlPath ); ?>/include/script/html5shim.js"></script>
 		<![endif]-->
     </head>
 <?php flush(); ?>
@@ -46,10 +46,10 @@ $urlPath =
 		<div class="columns two">
 			<section>
 				<h1>Software Engineer</h1>
-				<p>Accomplished software engineer with over ten (10) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance. <!--Proven track record of designing and implementing flexible solutions which support frequent UI and functionality changes.--></p>
+				<p>Accomplished software engineer with over ten (10) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
 				<p>
 					Experienced with:
-					</p><ul>
+					<ul>
 						<li>Microsoft .NET Frameworks</li>
 						<li>Microsoft Databases (SQL Server, SQL Reports)</li>
 						<li>Apache Web Server on Linux</li>
@@ -63,7 +63,7 @@ $urlPath =
 			<section>
 				&nbsp;
 <!--
-That’s a very limited life. Life can be much broader, once you discover one simple fact, and that is that everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you’ll never be the same again. - Steve Jobs (http://www.youtube.com/watch?feature=player_embedded&v=kYfNvmF0Bqw)
+				<p>That's a very limited life. Life can be much broader, once you discover one simple fact, and that is that everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again. - Steve Jobs (http://www.youtube.com/watch?feature=player_embedded&v=kYfNvmF0Bqw)</p>
 -->
 			</section>
 		</div>
