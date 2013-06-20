@@ -61,7 +61,10 @@ $urlPath =
 				<p>Call me at <em>410-541-6736</em> or <a href="http://www.linkedin.com/in/matthewchoinski">view my experiences</a>.</p>
 			</section>
 			<section>
-				&nbsp;
+				<article>
+					<h2>Managing Chaos</h2>
+					<p>Using JIRA to manage projects...</p>
+				</article>
 <!--
 				<p>That's a very limited life. Life can be much broader, once you discover one simple fact, and that is that everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again. - Steve Jobs (http://www.youtube.com/watch?feature=player_embedded&v=kYfNvmF0Bqw)</p>
 -->
