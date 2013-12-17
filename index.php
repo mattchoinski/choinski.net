@@ -69,6 +69,14 @@ $urlPath =
 					<h2>Jenkins & NAnt</h2>
 					<p>Content...</p>
 				</article>
+				<article>
+					<h2>Managing Projects with JIRA</h2>
+					<p>Content...</p>
+				</article>
+				<article>
+					<h2>Developing with the SharePoint REST API</h2>
+					<p>Content...</p>
+				</article>
 			</section>
 <!--
 			<section>
