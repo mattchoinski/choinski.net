@@ -2,6 +2,10 @@ BODY {
 	width: 1024px;
 }
 
+PRE {
+	margin-right: -100%;
+}
+
 TH.large {
 	width: 18.292682926%;
 }
