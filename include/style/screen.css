@@ -300,6 +300,7 @@ P + H2 {
 	
 	H2 {
 		border-bottom: solid 1px #b3b3b3;
+		font-size: 2.25em;
 	}
 	
 	HEADER {
@@ -332,13 +333,16 @@ P + H2 {
 @media ( max-width: 320px ) {
 
 	BODY {
-		background-color: #dedede;
 		width: 320px;
 	}
 	
 	H1,
 	H1 SPAN {
 		font-size: 1.10em;
+	}
+	
+	H2 {
+		font-size: 1.00em;
 	}
 	
 	HEADER {
@@ -355,6 +359,11 @@ P + H2 {
 	.columns.two.offset SECTION + SECTION {
 		float: none;
 		width: 300px;
+	}
+	
+	.columns.three SECTION + SECTION,
+	.columns.two SECTION + SECTION {
+		margin-top: 40px;
 	}
 	
 	.hidden-phone {

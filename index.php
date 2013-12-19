@@ -47,16 +47,14 @@ $urlPath =
 			<section>
 				<h1>Software Engineer</h1>
 				<p>Accomplished software engineer with over ten (10) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
-				<p class="hidden-phone">
-					Experienced with:
-					<ul class="hidden-phone">
-						<li>Microsoft .NET Frameworks</li>
-						<li>Microsoft Databases (SQL Server, SQL Reports)</li>
-						<li>Apache Web Server on Linux</li>
-						<li>jQuery and JavaScript</li>
-						<li>PHP, Python and other open source technologies</li>
-					</ul>
-				</p>
+				<p class="hidden-phone">Experienced with:</p>
+				<ul class="hidden-phone">
+					<li>Microsoft .NET Frameworks</li>
+					<li>Microsoft Databases (SQL Server, SQL Reports)</li>
+					<li>Apache Web Server on Linux</li>
+					<li>jQuery and JavaScript</li>
+					<li>PHP, Python, and other open source technologies</li>
+				</ul>				
 				<p>Founded <a href="https://realpropertyexchanges.com/">realpropertyexchanges.com</a>, which provides data processing, data reporting and online payment processing for <a href="http://en.wikipedia.org/wiki/Internal_Revenue_Code_section_1031">1031 Real Property Exchanges</a>. <span class="hidden-phone">The service was developed within two (2) months using mordern technologies, including Linux cloud servers, HTML5, jQuery, PHP and Responsive Web Designs.</span></p>
 				<p>Founded <a href="http://web.archive.org/web/20061205020454/http://messagingreminder.com/">MessagingReminder.com, LLC</a>, which provided a service that synchronized your Microsoft Outlook Calendar with your mobile phone via text messaging. <span class="hidden-phone">The service supported several hundred users from December 2004 to April 2008.</span></p>
 				<p>Call me at <em>410-541-6736</em> or <a href="http://www.linkedin.com/in/matthewchoinski">view my experiences</a>.</p>
