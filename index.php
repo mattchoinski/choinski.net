@@ -25,14 +25,11 @@ $urlPath =
 		<meta content="Matthew Choinski" name="author">
 		<meta content="Matthew Choinski, Matt Choinski, Freelance, Freelance Web Developer, Web Developer, Open Source, LAMP, Linux, Apache, MySQL, PHP, Python, jQuery" name="keywords">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="<?php echo( $urlPath ); ?>/include/style/screen.css" media="screen" rel="stylesheet">
+		<link href="<?php echo( $urlPath ); ?>/include/style/screen.min.css" media="screen" rel="stylesheet">
 		<!--[if lt IE 9]>
-		<link href="<?php echo( $urlPath ); ?>/include/style/screen_ie.css" media="screen" rel="stylesheet">
+		<link href="<?php echo( $urlPath ); ?>/include/style/screen_ie.min.css" media="screen" rel="stylesheet">
 		<![endif]-->
 		<link rel="stylesheet" href="<?php echo( $urlPath ); ?>/include/style/font-awesome.min.css">
-		<!--[if IE 7]>
-		  <link rel="stylesheet" href="<?php echo( $urlPath ); ?>/include/style/font-awesome-ie7.min.css">
-		<![endif]-->
         <title>Matthew Choinski - Web Developer in Baltimore, Maryland Specializing in Open Source and Microsoft Technologies.</title>
 		<!--[if lt IE 9]>
 		<script src="<?php echo( $urlPath ); ?>/include/script/html5shim.js"></script>
@@ -65,20 +62,6 @@ $urlPath =
 					<p>The <em>PHP MVC Pattern</em> was developed for personal projects. This pattern allows developers to quickly create robust, modern web-based applications.</p>
 					<p><a href="<?php echo( $urlPath ); ?>/article/2013/12/php_mvc/">Read more.</a></p>
 				</article>
-<!--
-				<article>
-					<h2>Jenkins & NAnt</h2>
-					<p>Content...</p>
-				</article>
-				<article>
-					<h2>Managing Projects with JIRA</h2>
-					<p>Content...</p>
-				</article>
-				<article>
-					<h2>Developing with the SharePoint REST API</h2>
-					<p>Content...</p>
-				</article>
--->
 			</section>
 <!--
 			<section>
@@ -96,6 +79,6 @@ $urlPath =
 			</section>
 		</footer>
 		<script src="<?php echo( $urlPath ); ?>/include/script/jquery.min.js"></script>
-		<script src="<?php echo( $urlPath ); ?>/include/script/script.js" type="text/javascript"></script>
+		<script src="<?php echo( $urlPath ); ?>/include/script/script.min.js" type="text/javascript"></script>
 	</body>
 </html>

@@ -17,14 +17,11 @@ $urlPath =
 		<meta content="Matthew Choinski" name="author">
 		<meta content="Matthew Choinski, Matt Choinski, PHP, MVC" name="keywords">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="<?php echo( $urlPath ); ?>/include/style/screen.css" media="screen" rel="stylesheet">
+		<link href="<?php echo( $urlPath ); ?>/include/style/screen.min.css" media="screen" rel="stylesheet">
 		<!--[if lt IE 9]>
-		<link href="<?php echo( $urlPath ); ?>/include/style/screen_ie.css" media="screen" rel="stylesheet">
+		<link href="<?php echo( $urlPath ); ?>/include/style/screen_ie.min.css" media="screen" rel="stylesheet">
 		<![endif]-->
 		<link rel="stylesheet" href="<?php echo( $urlPath ); ?>/include/style/font-awesome.min.css">
-		<!--[if IE 7]>
-		  <link rel="stylesheet" href="<?php echo( $urlPath ); ?>/include/style/font-awesome-ie7.min.css">
-		<![endif]-->
         <title>Matthew Choinski - PHP MVC Pattern</title>
 		<!--[if lt IE 9]>
 		<script src="<?php echo( $urlPath ); ?>/include/script/html5shim.js"></script>
@@ -296,6 +293,6 @@ require_once( DOCUMENT_ROOT . "/include/script/footer.php" );
 			</section>
 		</footer>
 		<script src="<?php echo( $urlPath ); ?>/include/script/jquery.min.js"></script>
-		<script src="<?php echo( $urlPath ); ?>/include/script/script.js" type="text/javascript"></script>
+		<script src="<?php echo( $urlPath ); ?>/include/script/script.min.js" type="text/javascript"></script>
 	</body>
 </html>
