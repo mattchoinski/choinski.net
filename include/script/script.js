@@ -1,19 +1,12 @@
 function adjustContainerHeight()
 {
-	if ($("BODY").attr("height") !== undefined) 
+	$("BODY").css("height", "auto");
+	$("HTML").css("height", "auto");
+	if ( $("FOOTER").attr("bottom") !== undefined)
 	{
-		$("BODY").remoteAttr("height");
+		$("FOOTER").removeAttr("bottom");
 	}
-	if ($("HTML").attr("height") !== undefined)
-	{
-		$("HTML").removeAttr("height");
-	}
-	$("FOOTER").css( 
-		{
-			"position" : "relative",
-			"width" : "100%"
-		}
-	);
+	$("FOOTER").css( "position", "relative");
 	if ($(window).height() > $("BODY").height())
 	{
 		$("BODY").css("height", "100%");
