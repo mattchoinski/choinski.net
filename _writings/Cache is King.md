@@ -1,6 +1,6 @@
 # Cache is King
 
-...or could also be something with the Michael Pollan line about "_Eat food. Not too much. Mostly plants._"
+...or could also be something with the Michael Pollan line about "_Eat food. Not too much. Mostly plants._", such as "Send resources.  Not too much.  Mostly compressed."
 
 ## Why is this important?
 
