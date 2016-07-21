@@ -1,9 +1,9 @@
-#SharePoint REST API
+# SharePoint REST API
 
 Notes on how to use the SharePoint REST API to create custom solutions (without using WebParts or custom VisualStudio solutions).  These code snippets would utilize jQuery and custom HTML/CSS.
 
 
-##Sample Code
+## Sample Code
 
 	var result = "";
 	$.ajax({
@@ -33,4 +33,3 @@ Notes on how to use the SharePoint REST API to create custom solutions (without 
 			resultsBody.append("<tr><td align=\"center\" colspan=\"5\">There was an error trying to load the data.</td></tr>");;
 		}
 	});
-
