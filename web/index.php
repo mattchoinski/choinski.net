@@ -21,7 +21,7 @@ $urlPath =
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta content="Matthew Choinski is a web developer specializing in Open Source and Microsoft Technologies. Call 410-541-6736." name="description">
+		<meta content="Matthew Choinski is a web developer specializing in Open Source and Microsoft Technologies." name="description">
 		<meta content="Matthew Choinski" name="author">
 		<meta content="Matthew Choinski, Matt Choinski, Freelance, Freelance Web Developer, Web Developer, Open Source, LAMP, Linux, Apache, MySQL, PHP, Python, jQuery" name="keywords">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,7 +71,7 @@ $urlPath =
 		</div>
 		<footer class="columns two">
 			<section>
-				<p>&copy; 2013 Matthew Choinski</p>
+				<p>&copy; 2014 Matthew Choinski</p>
 				<p><a href="https://github.com/mattchoinski"><i class="icon-github-sign icon-2x"></i></a> <a href="http://www.linkedin.com/in/matthewchoinski"><i class="icon-linkedin-sign icon-2x"></i></a> <a href="https://twitter.com/mattchoinski"><i class="icon-twitter-sign icon-2x"></i></a></p>
 			</section>
 			<section>
@@ -91,3 +91,4 @@ ga('send', 'pageview');
 		</script>
 	</body>
 </html>
+<!-- NEW SERVER -->
