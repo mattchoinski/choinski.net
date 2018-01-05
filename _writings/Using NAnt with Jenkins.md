@@ -1,4 +1,4 @@
-#Using NAnt with Jenkins
+# Using NAnt with Jenkins
 
 Briefly, the problem being solved is how to transfer a .NET Web Application build to another server with a NAnt script.
 
@@ -7,11 +7,11 @@ Due to various restrictions, the Web Application build must be fetched and insta
 Due to the limitations with FTP operations in Jenkins, a custom C# class was developed to transfer the Web Application build to a FTP server.
 
 
-##Sample Code
+## Sample Code
 
 	<?xml version="1.0"?>
 	<project name="MyWebApp" default="all">
-		<property name="nant.settings.currentframework" value="net-3.5"/> 
+		<property name="nant.settings.currentframework" value="net-3.5"/>
 		<property name="base_path" value="C:\Program Files (x86)\Jenkins\jobs\MyWebApp\" />
 		<property name="build_path" value="${base_path}workspace\application\MyWebApp\" />
 		<property name="database_path" value="${base_path}workspace\database\" />
@@ -86,7 +86,7 @@ Due to the limitations with FTP operations in Jenkins, a custom C# class was dev
 						{
 							private string _fileDirectory;
 							private string _fileName;
-							
+
 							[TaskAttribute("file_directory", Required=true)]
 							public string FileDirectory
 							{
@@ -94,12 +94,12 @@ Due to the limitations with FTP operations in Jenkins, a custom C# class was dev
 								{
 									return _fileDirectory;
 								}
-								set 
+								set
 								{
 									_fileDirectory = value;
 								}
 							}
-	
+
 							[TaskAttribute("file_name", Required=true)]
 							public string FileName
 							{
@@ -107,33 +107,33 @@ Due to the limitations with FTP operations in Jenkins, a custom C# class was dev
 								{
 									return _fileName;
 								}
-								set 
+								set
 								{
 									_fileName = value;
 								}
 							}
-								
+
 							protected override void ExecuteTask( )
 							{
 								Log( Level.Info, "Preparing to FTP the file: " + _fileDirectory + _fileName );
-								
+
 								FtpWebRequest request = ( FtpWebRequest )WebRequest.Create( "ftp://myftpsite.com/" + _fileName );
 								request.Method = WebRequestMethods.Ftp.UploadFile;
-	
+
 								request.Credentials = new System.Net.NetworkCredential( "ftp_gedis", "GEDISgedis$$" );
-	
+
 								byte[] fileContents = File.ReadAllBytes( _fileDirectory + _fileName );
 								request.ContentLength = fileContents.Length;
-	
+
 								Log( Level.Info, "File size: " + fileContents.Length.ToString() );
-	
+
 								Stream requestStream = request.GetRequestStream();
 								requestStream.Write( fileContents, 0, fileContents.Length );
 								requestStream.Close();
-	
+
 								FtpWebResponse response = ( FtpWebResponse )request.GetResponse();
 								response.Close();
-	
+
 								Log( Level.Info, "FTP Transfer completed with a status of: " + response.StatusDescription );
 							}
 						}
@@ -143,4 +143,3 @@ Due to the limitations with FTP operations in Jenkins, a custom C# class was dev
 			<ftp file_directory="${release_path}" file_name="${release_file_name}" />
 		</target>
 	</project>
-
