@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 /*
 	$currentDate = time ();
@@ -42,7 +42,7 @@ $urlPath =
 		<div class="columns two">
 			<section>
 				<h1>Software Engineer</h1>
-				<p>Accomplished software engineer with over twelve (12) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
+				<p>Accomplished software engineer with over fifteen (15) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
 				<p class="hidden-phone">Experienced with:</p>
 				<ul class="hidden-phone">
 					<li>Microsoft .NET Frameworks</li>
@@ -51,18 +51,11 @@ $urlPath =
 					<li>jQuery and JavaScript</li>
 					<li>PHP, Python, and other open source technologies</li>
 				</ul>
-				<p>Founded <a href="https://realpropertyexchanges.com/">realpropertyexchanges.com</a>, which provides data processing, data reporting and online payment processing for <a href="http://en.wikipedia.org/wiki/Internal_Revenue_Code_section_1031">1031 Real Property Exchanges</a>. <span class="hidden-phone">The service was developed within two (2) months using mordern technologies, including Linux cloud servers, HTML5, jQuery, PHP and Responsive Web Designs.</span></p>
-				<p>Founded <a href="http://web.archive.org/web/20061205020454/http://messagingreminder.com/">MessagingReminder.com, LLC</a>, which provided a service that synchronized your Microsoft Outlook Calendar with your mobile phone via text messaging. <span class="hidden-phone">The service supported several hundred users from December 2004 to April 2008.</span></p>
-				<p>Call me at <em>410-541-6736</em> or <a href="http://www.linkedin.com/in/matthewchoinski">view my experiences</a>.</p>
 			</section>
 		</div>
 		<footer class="columns two">
 			<section>
-<<<<<<< HEAD:web/index.php
-				<p>&copy; 2014 Matthew Choinski</p>
-=======
-				<p>&copy; 2013 - 2016 Matthew Choinski</p>
->>>>>>> d8c416a7cfd72a6c75982b188f64a7a00e9904b2:index.php
+				<p>&copy; 2013 - 2018 Matthew Choinski</p>
 				<p><a href="https://github.com/mattchoinski"><i class="icon-github-sign icon-2x"></i></a> <a href="http://www.linkedin.com/in/matthewchoinski"><i class="icon-linkedin-sign icon-2x"></i></a> <a href="https://twitter.com/mattchoinski"><i class="icon-twitter-sign icon-2x"></i></a></p>
 			</section>
 			<section>
@@ -71,18 +64,5 @@ $urlPath =
 		</footer>
 		<script src="<?php echo( $urlPath ); ?>/include/script/jquery.min.js"></script>
 		<script src="<?php echo( $urlPath ); ?>/include/script/script.min.js" type="text/javascript"></script>
-		<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-12259620-1', 'choinski.net');
-ga('send', 'pageview');
-		</script>
 	</body>
-</html>
-<<<<<<< HEAD:web/index.php
-<!-- NEW SERVER -->
-=======
->>>>>>> d8c416a7cfd72a6c75982b188f64a7a00e9904b2:index.php
+</html> 
