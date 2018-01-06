@@ -29,7 +29,7 @@ $urlPath =
 		<!--[if lt IE 9]>
 		<link href="<?php echo( $urlPath ); ?>/include/style/screen_ie.min.css" media="screen" rel="stylesheet">
 		<![endif]-->
-    <title>Matthew Choinski - Web Developer in Baltimore, Maryland Specializing in Open Source and Microsoft Technologies.</title>
+		<title>Matthew Choinski - Software Developer in Maryland Specializing in Open Source and Microsoft Technologies.</title>
 		<!--[if lt IE 9]>
 		<script src="<?php echo( $urlPath ); ?>/include/script/html5shim.js"></script>
 		<![endif]-->
@@ -37,20 +37,25 @@ $urlPath =
 <?php flush(); ?>
   <body>
 		<header>
-			<h1>matt<span>&#64;</span>choinski<span>&#46;net</span></h1>
+			<h1>matt&#64;choinski&#46;net</h1>
 		</header>
 		<div class="columns two">
 			<section>
 				<h1>Software Engineer</h1>
-				<p>Accomplished software engineer with over fifteen (15) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
-				<p class="hidden-phone">Experienced with:</p>
-				<ul class="hidden-phone">
+				<p>Accomplished software developer with over fifteen (15) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
+				<p>Experienced with:</p>
+				<ul>
 					<li>Microsoft .NET Frameworks</li>
 					<li>Microsoft Databases (SQL Server, SQL Reports)</li>
 					<li>Apache Web Server on Linux</li>
 					<li>jQuery and JavaScript</li>
+					<li>MongoDB</li>
 					<li>PHP, Python, and other open source technologies</li>
 				</ul>
+			</section>
+			<section>
+				<h2>Articles</h2>
+				<p>Placeholder...</p>
 			</section>
 		</div>
 		<footer class="columns two">
@@ -62,7 +67,6 @@ $urlPath =
 				<p>&nbsp;</p>
 			</section>
 		</footer>
-		<script src="<?php echo( $urlPath ); ?>/include/script/jquery.min.js"></script>
-		<script src="<?php echo( $urlPath ); ?>/include/script/script.min.js" type="text/javascript"></script>
+		<script src="<?php echo( $urlPath ); ?>/include/script/script.adjust.min.js"></script>
 	</body>
 </html> 
