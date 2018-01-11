@@ -4,17 +4,32 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         concat: {
-			dist: {
-				src: [
-					'include/script/script.js'
-				],
-				dest: 'include/script/script.min.js',
+	        libs: {
+		        files: [
+					{
+						src: [
+							'include/script/script.js'
+						],
+						dest: 'include/script/script.min.js',
+					},
+					{
+						src: [
+							'include/script/libs/docReady.js',
+							'include/script/script.adjust.js'
+						],
+						dest: 'include/script/script.adjust.min.js'
+					}
+				]
 			}
         },
 		uglify: {
-			build: {
-				src: 'include/script/script.min.js', 
-				dest: 'include/script/script.min.js'
+			js: {
+				files: [
+					{
+						src: 'include/script/script.min.js', 
+						dest: 'include/script/script.min.js'
+					}
+				]
 			}
 		},
 		cssmin: {
