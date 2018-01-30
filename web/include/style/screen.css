@@ -107,6 +107,7 @@ footer {
 	font-size: 0.90em;
 	margin: 3.90625% 0 3.90625% 0;
 	padding-bottom: 3.90625%;
+	width: 100%;
 }
 
 footer,
@@ -188,14 +189,13 @@ svg {
 	vertical-align: middle;
 }
 
-ol,
-ul {
-	list-style: none;
-}
-
 p {
 	padding-bottom: 2.9296875%;
 	line-height: 1.5rem;
+}
+
+ul li {
+	margin-left: 20px;
 }
 
 .columns.three section,
