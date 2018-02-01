@@ -1,13 +1,5 @@
 <?php 
 
-/*
-	$currentDate = time ();
-	$startOfCareerDate = mktime( 0, 0, 0, 1, 1, 2001 );
-
-	$differenceOfDates = $currentDate - $startOfCareerDate;
-	$differenceExpressedAsYears = floor ( $differenceOfDates / ( 60 * 60 * 24 * 365 ) );
- */
-
 $urlPath =
 	( !empty( $_SERVER[ "HTTPS" ] )
 		&& $_SERVER[ "HTTPS" ] == "on"
