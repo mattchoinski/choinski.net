@@ -42,7 +42,7 @@ $urlPath =
 		<div class="columns two">
 			<section>
 				<h1>Software Engineer</h1>
-				<p>Accomplished software developer with over fifteen (15) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging and maintenance.</p>
+				<p>Accomplished software developer with over fifteen (15) years of experience specializing in object-oriented approaches to web application development. Extensive background in full life-cycle of software development process including requirements gathering, design, coding, testing, debugging, and maintenance.</p>
 				<p>Experienced with:</p>
 				<ul>
 					<li>Microsoft .NET Frameworks</li>
@@ -57,7 +57,6 @@ $urlPath =
 		<footer class="columns">
 			<section>
 				<p>&copy; 2013 - 2018 Matthew Choinski</p>
-				<p><a href="https://github.com/mattchoinski"><i class="icon-github-sign icon-2x"></i></a> <a href="http://www.linkedin.com/in/matthewchoinski"><i class="icon-linkedin-sign icon-2x"></i></a> <a href="https://twitter.com/mattchoinski"><i class="icon-twitter-sign icon-2x"></i></a></p>
 			</section>
 		</footer>
 		<script src="<?php echo( $urlPath ); ?>/include/script/script.adjust.min.js"></script>
