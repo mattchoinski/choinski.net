@@ -28,6 +28,7 @@ Vagrant.configure(2) do |config|
   #config.vm.provision "file", source: "./web/", destination: "/tmp/choinski.net/"
   config.vm.provision "shell", path: "./script/setup-webapp.sh"
 
+  config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.synced_folder "web/", "/var/www/choinski.net/web/"
 
 end
