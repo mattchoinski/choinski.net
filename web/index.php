@@ -48,7 +48,7 @@ $urlPath =
 		</div>
 		<footer class="columns">
 			<section>
-				<p>&copy; 2013 - 2018 Matthew Choinski</p>
+				<p>&copy; 2013 - 2019 Matthew Choinski</p>
 			</section>
 		</footer>
 		<script src="<?php echo( $urlPath ); ?>/include/script/script.adjust.min.js"></script>
