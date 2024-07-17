@@ -2,11 +2,33 @@
 
 version: '3.4'
 
+networks:
+  mongodb-cluster:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/24
+          gateway: 172.20.0.1
+
 services:
-  web:
-    image: web
+  choinskinet:
+    container_name: choinskinet
+    image: choinskinet:latest
     build:
       context: .
       dockerfile: source/web/Dockerfile
     ports:
       - 8080:8080
+#  mongodb-single:
+#    container_name: mongodb-single
+#    hostname: mongodb-single
+#    image: mongo:7
+#    networks:
+#      mongodb-cluster:
+#        ipv4_address: 172.20.0.2
+#    ports: 
+#      - 27027:27017
+#    volumes:
+#      - [local:docker]
+#    entrypoint: ["mongod", "--bind_ip", "localhost,172.0.0.2"]
